@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
-@ComponentScan({"com.amol.controllers"})
+@ComponentScan({"com.amol"})
 public class ProjectConfig {
 
 	@Bean
